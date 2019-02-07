@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+# Uses PyWal colors and adds them to a predefined Albert launcher theme
+
+__author__ = "ErkHal"
+
 import os
 import json
 import cssutils
