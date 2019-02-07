@@ -25,9 +25,8 @@ for rule in styleSheet.cssRules:
         if rule.selectorText == '#frame' or rule.selectorText == '#inputLine':
             rule.style.backgroundColor = colorArray['colors']['color0']
         
-        if rule.style.selectorText == 'QListView':
-            print(rule.style.cssText)
-            #property.value = colorArray['colors']['color6']
+        if rule.selectorText == 'QListView':
+            rule.style['selection-color'] = colorArray['colors']['color7']
     
     except AttributeError as e:
         pass #Ignore error if attribute doesn't exist
