@@ -25,6 +25,6 @@ python walbert.py
 
 - Restart Albert/Change theme to something else and back to Walbert
 
-##Contribution
+## Contribution
 
 You're more than welcome to submit me your pull requests to make this script even better and easier to use !
