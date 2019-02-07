@@ -2,7 +2,7 @@
 
 ![](Walbert.gif)
 
-## Use [PyWal-generated](https://github.com/dylanaraps/pywal)  colors in your [Albert Launcher](https://github.com/albertlauncher/albert).
+## Use [PyWal](https://github.com/dylanaraps/pywal)  color schemes in your [Albert Launcher](https://github.com/albertlauncher/albert).
 
 ### Still a work in progress
 
