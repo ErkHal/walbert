@@ -1,6 +1,8 @@
 # Walbert
 
-Use [PyWal-generated](https://github.com/dylanaraps/pywal)  colors in your [Albert Launcher](https://github.com/albertlauncher/albert).
+![](Walbert.gif)
+
+## Use [PyWal-generated](https://github.com/dylanaraps/pywal)  colors in your [Albert Launcher](https://github.com/albertlauncher/albert).
 
 ### Still a work in progress
 
@@ -22,3 +24,7 @@ python walbert.py
 ```
 
 - Restart Albert/Change theme to something else and back to Walbert
+
+##Contribution
+
+You're more than welcome to submit me your pull requests to make this script even better and easier to use !
