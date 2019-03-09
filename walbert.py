@@ -8,8 +8,6 @@ import json
 import cssutils
 
 #Edit these to change the color variables assigned to the QSS rules
-BACKGROUND_COLOR = 'color0'
-PRIMARY_COLOR = 'color3'
 SELECTION_COLOR = 'color6'
 
 pywalFilepath = os.path.join(os.environ['HOME'], '.cache/wal/colors.json')
@@ -22,14 +20,14 @@ with open(pywalFilepath) as f:
 for rule in styleSheet.cssRules:
     try:
         if rule.selectorText == '*':
-            rule.style.color = colorArray['colors'][PRIMARY_COLOR]
-            rule.style.backgroundColor = colorArray['colors'][BACKGROUND_COLOR]
+            rule.style.color = colorArray['special']['foreground']
+            rule.style.backgroundColor = colorArray['special']['background']
         
         if rule.selectorText == '#settingsButton':
-            rule.style.color = colorArray['colors'][PRIMARY_COLOR]
+            rule.style.color = colorArray['colors'][SELECTION_COLOR]
 
         if rule.selectorText == '#frame' or rule.selectorText == '#inputLine':
-            rule.style.backgroundColor = colorArray['colors'][BACKGROUND_COLOR]
+            rule.style.backgroundColor = colorArray['special']['background']
         
         if rule.selectorText == 'QListView':
             rule.style['selection-color'] = colorArray['colors'][SELECTION_COLOR]
