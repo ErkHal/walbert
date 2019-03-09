@@ -7,23 +7,21 @@
 ### Still a work in progress
 
 ## Usage 
-- Copy one of the existing themes from the default Albert WidgetBoxModel theme directory
+- Copy the Walbert.qss file included in this repo into this directory
 ```
 /usr/share/albert/org.albert.frontend.widgetboxmodel/themes/
 ```
-- Change the filename to 
-```
-Walbert.qss
-```
 
-- Open Settings and change Albert's current theme to Walbert and Frontend to Widget Box Model.
+- Open Settings and change Albert's current theme to ```Walbert``` and Frontend to ```Widget Box Model```
 
-- Execute the script 
+- Execute the script
 ```
 python walbert.py
 ```
 
 - Restart Albert/Change theme to something else and back to Walbert
+
+- Enjoy !
 
 ## Contribution
 
