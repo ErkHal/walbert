@@ -39,3 +39,6 @@ for rule in styleSheet.cssRules:
 with open('/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Walbert.qss', 'wb') as f:
     f.write(styleSheet.cssText)
     f.close()
+
+print('-----------------------------------------')
+print('Stylesheet changed, restart Albert or change themes in Albert\'s settings to apply changes')
